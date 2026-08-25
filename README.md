@@ -1,12 +1,22 @@
-# Aureum Technology GmbH · Brand Assets
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo/aureum-logo-quer-weissgold.svg">
+  <img alt="Aureum Technology GmbH" src="logo/aureum-logo-quer-farbig.svg" width="380">
+</picture>
+
+# Brand Assets
 
 `FORMBLATT AT-B01 · MARKENELEMENTE` `REV. 2026-B` `STAND 25.08.2026`
 
 Logos, Farbwerte und Schriften der Aureum Technology GmbH.
 Gedacht für Presse, Partner, Verzeichnisse und alle, die uns korrekt darstellen wollen.
 
-**Kurz für Eilige:** Druckerei bekommt die SVG aus `/logo/`. Profilbild bei
-Google oder LinkedIn: das PNG aus `/profil/`. Farbwerte stehen unter 02.
+> [!TIP]
+> **Kurz für Eilige.** Druckerei bekommt die SVG aus [`logo/`](logo). Profilbild bei
+> Google oder LinkedIn: das PNG aus [`profil/`](profil). Farbwerte stehen unter 02.
+
+Das Logo oben wechselt mit Ihrem GitHub-Erscheinungsbild: heller Grund zeigt die
+farbige Fassung, dunkler die zweifarbige `weissgold`. Genau dafür gibt es die
+Varianten — die Regel dahinter steht unter 04.
 
 ---
 
@@ -18,14 +28,15 @@ Google oder LinkedIn: das PNG aus `/profil/`. Farbwerte stehen unter 02.
 | Sitz | Straße der Jugend 5, 08228 Rodewisch |
 | Register | Amtsgericht Chemnitz, HRB 35602 |
 | USt-ID | DE362284348 |
-| Web | https://aureum-tech.com |
+| Web | <https://aureum-tech.com> |
 | Telefon | +49 3744 4399760 |
 
 IT-Betreuung für Betriebe, Praxen und Vereine im Vogtland. Netzwerke, Server,
 Arbeitsplätze und Datensicherung. Dazu Computerhilfe für Privatkunden.
 
-Die Telefonnummer bitte genau in dieser Schreibweise übernehmen. In
-Verzeichnissen zählt jede Abweichung als eigene Angabe.
+> [!NOTE]
+> Die Telefonnummer bitte genau in dieser Schreibweise übernehmen. In
+> Verzeichnissen zählt jede Abweichung als eigene Angabe.
 
 ---
 
@@ -33,7 +44,7 @@ Verzeichnissen zählt jede Abweichung als eigene Angabe.
 
 Richtig ist **Aureum Technology GmbH**. Im Fließtext kurz **Aureum Technology**.
 
-Nicht: AUREUM TECHNOLOGY, Aureum-Technology, Aureum Tech, aureum technology.
+Nicht: ~~AUREUM TECHNOLOGY~~ · ~~Aureum-Technology~~ · ~~Aureum Tech~~ · ~~aureum technology~~
 
 ---
 
@@ -46,15 +57,14 @@ Nicht: AUREUM TECHNOLOGY, Aureum-Technology, Aureum Tech, aureum technology.
 | Papier | `#F1F4F7` | 241, 244, 247 | — | — | Flächen, Hintergrund |
 | Grau | `#5C646E` | 92, 100, 110 | — | — | Sekundärtext, Beschriftungen |
 
-Gold ist ein Akzent, keine Flächenfarbe. Es markiert einen Punkt, nie einen
-Hintergrund.
+> [!WARNING]
+> **CMYK und Pantone sind umgerechnet, nicht gemessen.** Muss die Farbe exakt
+> sitzen, etwa bei Textil oder größerer Auflage, lassen Sie einen Andruck oder
+> einen Fächerabgleich machen. Gold verschiebt sich auf Stoff.
 
-**CMYK und Pantone sind umgerechnet, nicht gemessen.** Muss die Farbe exakt
-sitzen, etwa bei Textil oder größerer Auflage, lassen Sie einen Andruck oder
-einen Fächerabgleich machen. Gold verschiebt sich auf Stoff.
-
-Zum Einlesen: `farben/aureum.gpl` für Inkscape, GIMP und Krita,
-`farben/farben.css` fürs Web, `farben/farben.json` für alles andere.
+Zum Einlesen: [`farben/aureum.gpl`](farben/aureum.gpl) für Inkscape, GIMP und
+Krita · [`farben/farben.css`](farben/farben.css) fürs Web ·
+[`farben/farben.json`](farben/farben.json) für alles andere.
 
 ---
 
@@ -67,7 +77,7 @@ Zum Einlesen: `farben/aureum.gpl` für Inkscape, GIMP und Krita,
 | Technische Beschriftungen | IBM Plex Mono (400, 500) | Google Fonts, SIL Open Font License |
 
 **Für die Logodateien wird keine Schrift gebraucht:** Der Schriftzug ist in
-Vektorpfade umgewandelt. Näheres in `schriften/LIESMICH.md`.
+Vektorpfade umgewandelt. Näheres in [`schriften/LIESMICH.md`](schriften/LIESMICH.md).
 
 ---
 
@@ -76,6 +86,11 @@ Vektorpfade umgewandelt. Näheres in `schriften/LIESMICH.md`.
 Die Marke besteht aus dem Quadrat mit Goldpunkt und dem Schriftzug.
 Beides gehört zusammen. Das Quadrat allein ist nur als Bildmarke zulässig,
 etwa als Profilbild oder Favicon.
+
+> [!IMPORTANT]
+> **Gold sitzt nur am Kontaktpunkt.** Der goldene Kreis im Zeichen ist der
+> einzige Ort, an dem Gold vorkommt — nie flächig, nie als Hintergrund, nie am
+> Schriftzug. Deshalb ist `…-weissgold` zweifarbig statt durchgehend gold.
 
 **Schutzraum:** rundherum mindestens die Höhe des Goldpunkts freilassen.
 
@@ -87,7 +102,28 @@ Bildmarke allein nehmen.
 hinzufügen, auf unruhigen Hintergründen platzieren, den Schriftzug nachbauen
 oder ersetzen.
 
-Auf dunklem Grund die helle Variante verwenden, auf hellem Grund die dunkle.
+<details>
+<summary><b>Die vier Formen ansehen</b></summary>
+
+<br>
+
+**Querform** — breite Flächen, Banner, Briefkopf
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="logo/aureum-logo-quer-weiss.svg"><img alt="Querform" src="logo/aureum-logo-quer-schwarz.svg" width="300"></picture>
+
+**Gestapelt** — schmale Flächen, Brustdruck
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="logo/aureum-logo-gestapelt-weiss.svg"><img alt="Gestapelte Form" src="logo/aureum-logo-gestapelt-schwarz.svg" width="150"></picture>
+
+**Bildmarke** — Kappe, Aufkleber, Ärmel
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="logo/aureum-bildmarke-weiss.svg"><img alt="Bildmarke" src="logo/aureum-bildmarke-schwarz.svg" width="90"></picture>
+
+**Wortmarke** — wenn das Zeichen schon danebensteht
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="logo/aureum-wortmarke-weiss.svg"><img alt="Wortmarke" src="logo/aureum-wortmarke-schwarz.svg" width="260"></picture>
+
+</details>
 
 ### Gold auf dunklem Grund
 
@@ -108,13 +144,13 @@ lässt sich in dieser Größe nicht sauber sticken.
 
 ## 05 / Dateien
 
-```
-/logo/         Querform, gestapelt, Wortmarke, Bildmarke — je SVG und PNG
-/profil/       Profilbilder, Kacheln, runde Bildmarke — für Plattformen
-/favicon/      Icons für Web und Anwendungen
-/farben/       Farbwerte als Palette (GPL, CSS, JSON)
-/schriften/    Bezugsquellen und Gewichte
-```
+| Ordner | Inhalt | Stück |
+|---|---|---|
+| [`logo/`](logo) | Querform, gestapelt, Wortmarke, Bildmarke | 30 |
+| [`profil/`](profil) | Profilbilder, Kacheln, runde Bildmarke | 16 |
+| [`favicon/`](favicon) | Icons für Web und Anwendungen | 4 |
+| [`farben/`](farben) | Palette als GPL, CSS und JSON | 3 |
+| [`schriften/`](schriften) | Bezugsquellen und Gewichte | 1 |
 
 **SVG ist das Ausgangsformat.** PNG nur nehmen, wenn SVG nicht geht — die PNG
 liegen 3000 px breit (Logo, Bildmarke, Wortmarke) und 1000 px (rund, Profil).
@@ -123,7 +159,7 @@ liegen 3000 px breit (Logo, Bildmarke, Wortmarke) und 1000 px (rund, Profil).
 
 | Wenn … | dann |
 |---|---|
-| die Druckerei nach dem Logo fragt | **SVG** aus `/logo/`, immer |
+| die Druckerei nach dem Logo fragt | **SVG** aus `logo/`, immer |
 | ein Portal nur PNG annimmt | `…-3000px.png` |
 | heller Grund | `…-farbig` oder `…-schwarz` |
 | dunkler Grund, Gold soll dabei sein | `…-weissgold` |
@@ -135,11 +171,34 @@ liegen 3000 px breit (Logo, Bildmarke, Wortmarke) und 1000 px (rund, Profil).
 | Profil bei Google, LinkedIn, Facebook | `profil/aureum-profilbild-hell` oder `-dunkel`, als PNG |
 | nur der Schriftzug | `aureum-wortmarke-…` |
 
-**Bildmarke oder Profilbild?** Die Bildmarke ist transparent und gehört auf
-Aufdrucke, weil der Untergrund durchscheinen soll. Für Profile taugt sie nicht:
-Dort landet das Zeichen auf dem zufälligen Hintergrund der Plattform. Das
-Profilbild ist ein rundes Motiv auf quadratischer Vollfläche, weil die
-Plattformen selbst rund beschneiden.
+<details>
+<summary><b>Namensmuster</b></summary>
+
+<br>
+
+```
+aureum-<form>-<farbvariante>.svg
+aureum-<form>-<farbvariante>-<breite>px.png
+```
+
+| Form | Farbvarianten |
+|---|---|
+| `logo-quer` | farbig · schwarz · weiss · weissgold |
+| `logo-gestapelt` | farbig · schwarz · weiss · weissgold |
+| `bildmarke` | farbig · schwarz · weiss · weissgold |
+| `bildmarke-rund` | farbig · schwarz · weiss · weissgold |
+| `wortmarke` | farbig · schwarz · weiss |
+| `icon-kachel` | hell · dunkel |
+| `profilbild` | hell · dunkel |
+
+</details>
+
+> [!NOTE]
+> **Bildmarke oder Profilbild?** Die Bildmarke ist transparent und gehört auf
+> Aufdrucke, weil der Untergrund durchscheinen soll. Für Profile taugt sie
+> nicht: Dort landet das Zeichen auf dem zufälligen Hintergrund der Plattform.
+> Das Profilbild ist ein rundes Motiv auf quadratischer Vollfläche, weil die
+> Plattformen selbst rund beschneiden.
 
 ---
 
@@ -153,7 +212,7 @@ Nicht erlaubt ist eine Verwendung, die den Eindruck erweckt, ein Angebot
 stamme von uns oder sei von uns geprüft, freigegeben oder unterstützt.
 
 Die Marken- und Urheberrechte bleiben bei der Aureum Technology GmbH.
-Im Zweifel kurz fragen: info@aureum-tech.com
+Im Zweifel kurz fragen: <info@aureum-tech.com>
 
 ---
 
