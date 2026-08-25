@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!--
+    Aureum Technology — Bildmarke „Goldkontakt": Modulrahmen, zwei
+    Leiterbahnen, Kontaktpunkt in Gold.
+
+    Passt sich dem Browser-Design an: helle Kachel im Hellmodus, dunkle im
+    Dunkelmodus. Browser ohne Unterstützung für prefers-color-scheme in
+    SVG-Favicons (u. a. Safari) bekommen den hellen Stand als Vorgabe.
+
+    Farben aus src/styles/tokens.css (paper, ink, gold-500). Vorher standen
+    hier #F4F2EB und #171712 — die Palette VOR der Umstellung auf Blau-Gold.
+    Bei Farbänderungen mitziehen; die druckfertigen Varianten dieser Marke
+    liegen in brand/.
+
+    Achtung: In XML-Kommentaren sind zwei Bindestriche hintereinander
+    verboten — CSS-Variablennamen hier also ohne Präfix schreiben.
+  -->
+  <style>
+    .grund { fill: #F1F4F7; }
+    .linie { stroke: #0D141F; }
+    @media (prefers-color-scheme: dark) {
+      .grund { fill: #080F1C; }
+      .linie { stroke: #F0F2F5; }
+    }
+  </style>
+
+  <rect class="grund" width="64" height="64" />
+  <rect class="linie" x="6.5" y="6.5" width="51" height="51" fill="none" stroke-width="3" />
+  <path class="linie" d="M10 32 H24 M40 32 H54" stroke-width="3" />
+  <circle class="linie" cx="32" cy="32" r="9" fill="#C9A227" stroke-width="3" />
+</svg>
