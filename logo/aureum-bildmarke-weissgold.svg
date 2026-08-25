@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Aureum Technology GmbH · Bildmarke „Goldkontakt" (weissgold)
+     Schrift in Pfade konvertiert — keine Schriftdatei nötig.
+     Erzeugt von scripts/build-logo.py -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.00 64.00" width="64.00" height="64.00">
+  
+  <rect x="6.5" y="6.5" width="51" height="51" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M10 32 H24 M40 32 H54" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="32" cy="32" r="9" fill="#C9A227" stroke="#FFFFFF" stroke-width="3"/>
+</svg>
