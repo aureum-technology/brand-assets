@@ -1,0 +1,9 @@
+/* Farbwerte der Aureum Technology GmbH. Stand 25.08.2026.
+   Gold ist ein Akzent am Kontaktpunkt, nie eine Flaechenfarbe. */
+:root {
+  --aureum-dunkel: #0D141F;
+  --aureum-gold:   #C9A227;
+  --aureum-papier: #F1F4F7;
+  --aureum-grau:   #5C646E;
+  --aureum-linie:  #D5D8DB;
+}

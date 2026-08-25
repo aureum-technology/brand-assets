@@ -1,0 +1,11 @@
+{
+  "hinweis": "Farbwerte der Aureum Technology GmbH. CMYK und Pantone sind umgerechnet, nicht gemessen.",
+  "stand": "2026-08-25",
+  "farben": [
+    { "name": "Dunkel",   "hex": "#0D141F", "rgb": [13, 20, 31],    "cmyk": [85, 70, 50, 60], "pantone": "5255 C", "rolle": "Schrift, Logo, Rahmen" },
+    { "name": "Gold",     "hex": "#C9A227", "rgb": [201, 162, 39],  "cmyk": [20, 33, 100, 5], "pantone": "7555 C", "rolle": "Akzent am Kontaktpunkt, nie flaechig" },
+    { "name": "Papier",   "hex": "#F1F4F7", "rgb": [241, 244, 247], "rolle": "Flaeche, Hintergrund" },
+    { "name": "Grau",     "hex": "#5C646E", "rgb": [92, 100, 110],  "rolle": "Sekundaertext (5,4:1 auf Papier)" },
+    { "name": "Linie",    "hex": "#D5D8DB", "rgb": [213, 216, 219], "rolle": "Trennlinien" }
+  ]
+}
